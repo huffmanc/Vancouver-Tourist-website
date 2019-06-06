@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Visit Vancouver</title>
+    <link href="MainPage.css" type="text/css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header id="logoblock">
+        <div id="logodiv">
+            <a href="index.html"><img id="Logo" src="Pictures/VVnew.png" alt="Logo"></a>
+        </div>
+        <div id="links">
+            <a class="sublinks" href="RentalCosts.html">Rental Costs</a>
+            <a class="sublinks" href="GroupStay.html">Group Stay</a>
+            <a class="sublinks" href="Activities.html">Activities</a>
+            <a class="sublinks" href="PlanVisit.html">Plan Your Visit</a>
+            <a class="sublinks" href="AboutUs.html">About Us</a>
+        </div>
+    </header>
+    <section>
+        <h1 class="topheads">Rental Costs</h1>
+    </section>
+    <section id="rentalblockquote">
+        <div>
+            <header>
+                <h2>Average Nightly Prices & Number of Rooms for Vancouver's Neighborhoods</h2>
+            </header> 
+            <p>If you aren’t picky about location (everywhere in Vancouver is worth seeing!), but you have a specific budget,
+               this map can be super helpful! Each of the outlined sections you can see display information on the average price
+               and average number of bedrooms when you click on them. If you require additional information, please feel free to
+               reach out to the email listed within "contact us" below!</p>
+        </div>
+    </section>
+    <section>
+        <div id="map"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl9iy6HNigEShgS04RMS2m_5gi8sp-7lw" ></script>
+        <script src="map.js"></script>
+    </section>
+    <footer>
+        <div id="contact_info">
+            <h2>Contact Us </h2>
+            <br><a href="mailto:watsonj19@mail.wlu.edu" id="footlink"> contact@visitvancouver.com </a>
+            <br> 123-456-7890
+            <br> &copy; 2019 
+        </div>
+    </footer>
+</body>
+</html>

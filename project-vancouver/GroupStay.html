@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Group Stay</title>
+    <link href="MainPage.css" type="text/css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header id="logoblock">
+        <div id="logodiv">
+            <a href="index.html"><img id="Logo" src="Pictures/VVnew.png" alt="Logo"></a>
+        </div>
+        <div id="links">
+            <a class="sublinks" href="RentalCosts.html">Rental Costs</a>
+            <a class="sublinks" href="GroupStay.html">Group Stay</a>
+            <a class="sublinks" href="Activities.html">Activities</a>
+            <a class="sublinks" href="PlanVisit.html">Plan Your Visit</a>
+            <a class="sublinks" href="AboutUs.html">About Us</a>
+        </div>
+    </header>
+    <section>
+        <h1 class="topheads">Group Stay</h1>
+    </section>
+    <section id="chartHolder">
+        <canvas id="myChart" width="550" height="400"></canvas>
+        <canvas id="myChart2" width="550" height="400"></canvas>
+    </section>
+    <section id="chartDescription">
+        <div>
+            <header>
+                <h2>Accomodation Costs Based on Group Sizes</h2>
+            </header> 
+            <p>We understand that when you are travelling in large groups, finding cost friendly accomodations can be intimidating. 
+               The two helpful charts to the left of this paragraph can help! We have organized information regarding accomodation 
+               based on the number of people staying, the neighborhood, and the complete costs of rooms required. When you click on
+               a bar of the above chart, you can see the median accomodation number and the average number of bedrooms. Similarly 
+               when you click on a bar of the below chart, you will see the average overall price and the average cost for each 
+               additional person each night. If you require additional information, please feel free to reach out to the email listed
+               within "contact us" below!</p>
+        </div>
+    </section>
+    <footer>
+        <div id="contact_info">
+            <h2>Contact Us </h2>
+            <br><a href="mailto:watsonj19@mail.wlu.edu" id="footlink"> contact@visitvancouver.com </a>
+            <br> 123-456-7890
+            <br> &copy; 2019 
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="chart.js"></script>
+</body>
+</html>

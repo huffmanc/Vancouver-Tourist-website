@@ -1,0 +1,273 @@
+#logoblock{
+    text-align: center;
+    padding: 10px;
+}
+
+#Logo{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
+
+#links{
+    text-align: center;
+    background: #183ab7;
+}
+
+.sublinks{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#links a:hover {
+    color:#ffffff;
+}
+
+#cara{
+    padding: 20px;
+}
+
+#myCarousel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.item{
+    width: auto;
+    height: 600px;
+    max-height: 600px;
+    
+}
+
+#purpose{
+    font: Georgia;
+    font-size: 18px;
+    margin: 40px auto;
+    width: 85%;
+    border: solid #304e58;
+    padding: 30px;
+    word-spacing: 2px;
+}
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #183ab7;
+    padding: 5px;
+    margin-top: 30px;
+    clear: both;
+}
+
+#footlink{
+    color: #ffffff;
+}
+
+.imagetext{
+    text-align: left;
+    color: #ff0000;
+    text-shadow: 1px 1px #af0000;
+}
+
+.image2text{
+    text-align: center;
+    font-style: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #ff0000;
+}
+
+.image3text{
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+}
+
+/* Jordan CSS */
+#about_container{
+    text-align: center;
+}
+
+.about_info{
+    border-color: #615e5e;
+    display: inline-block;
+    width: 40%;
+    margin-top: none;
+}
+
+.topheads{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background: #494b50;
+    color: #ffffff;
+}
+
+.about_info{
+    text-align: center;
+    padding: 10px;
+}
+
+.about_descriptions{
+    width: 55%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.about_pics{
+    width: 25%;
+    display: inline-block;
+    padding: .5em .5em;
+}
+
+#window{
+    text-align: center;
+    padding: 30px;
+}
+
+#intro{
+    width: 75%;
+    font: 18pt Serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+#bigEvents{
+    text-align: center;
+}
+
+.events{
+    padding: 15px;
+    display: inline-block;
+    width: 47%;
+}
+
+.pics{
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+#search{
+    padding: 20px;
+    margin: 20px 0px;
+    font-size: 25px;
+    background: #615e5e;
+    color: #ffffff;
+}
+
+#chartHolder{
+    width: 55%;
+    display: inline-block;
+}
+
+#myChart2{
+    padding-top: 100px;
+}
+
+#rentalblockquote{
+    background-color: #e7e7e7;
+    font-family: Georgia;
+    width: 48%;
+    float: right;
+    border-width: 5px 6px 5px 6px;
+    border-style: ridge;
+    border-color: #615e5e;
+    margin: 1em 1em 1em 1em;
+    padding: 5px 6px 5px 6px;
+}
+
+#chartDescription {
+    vertical-align: top;
+    background-color: #e7e7e7;
+    font-family: Georgia;
+    width: 40%;
+    display: inline-block;
+    border-width: 5px 6px 5px 6px;
+    border-style: ridge;
+    border-color: #615e5e;
+    margin: 1em 1em 1em 1em;
+    padding: 5px 6px 5px 6px;
+}
+
+#chartDescription p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.chartimg { 
+    width: 100%;
+}
+
+.mapimg { 
+    width: 100%;
+}
+
+#pricingmap {
+    font-family: Georgia;
+    text-align: center;
+}
+
+#groupstay {
+    font-family: Georgia;
+    text-align: center;
+}
+
+#travel{
+    margin-left: 10px;
+}
+
+#stay{
+    margin-left: 10px;
+}
+
+#placement {
+    border-width: 5px 6px 5px 6px;
+    border-style: ridge;
+    border-color: #304e58;
+    margin: 1em 1em 1em 1em;
+    padding: 5px 6px 5px 6px;
+}
+
+#map{ 
+    height: 500px;
+    margin-left: 10px
+}
+
+.Fixup{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px; 
+    border-color: #304e58;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+#leftarrow{
+    color: #183ab7;
+}
+
+#rightarrow{
+    color: #183ab7;
+}
